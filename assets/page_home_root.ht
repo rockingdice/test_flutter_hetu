@@ -1,0 +1,18 @@
+
+class PageHomeRoot extends Widget {
+
+  construct {
+    var future = app.futureMaker(fun() {
+      print('future')
+    })
+    app.handleFuture(future, fun(value) {
+      print('delayed!')
+      rebuild()
+    })
+  }
+
+  fun build(context) {
+    return Container()
+  }
+
+}
