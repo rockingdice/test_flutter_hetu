@@ -1,4 +1,4 @@
-
+import 'assets/widget.ht'
 class PageHomeRoot extends Widget {
 
   construct {

@@ -1,5 +1,5 @@
 
-import 'assets/page_home_tab.ht'
+import 'assets/page_home_root.ht'
 import 'assets/widget.ht'
 
 
